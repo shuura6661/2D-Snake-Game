@@ -90,7 +90,7 @@ class gamepy extends JPanel implements KeyListener, ActionListener {
         g.drawRect(24, 10, 851, 55);
 
         // Draw the title image
-        topimage = new ImageIcon("BannerArtboard 1.png");
+        topimage = new ImageIcon("resources\\image\\snakebanner.png");
         topimage.paintIcon(this, g, 25, 11);
 
         // Draw border for gameplay
@@ -127,45 +127,45 @@ class gamepy extends JPanel implements KeyListener, ActionListener {
         for (int a = 0; a < snakelength; a++) {
             if (a == 0) { // head of the snake
                 if (right) {
-                    rightimage = new ImageIcon("head_right.png");
+                    rightimage = new ImageIcon("resources\\image\\Graphics v3\\head_right.png");
                     rightimage.paintIcon(this, g, snakexlength[a], snakeylength[a]);
                 }
                 if (left) {
-                    leftimage = new ImageIcon("head_left.png");
+                    leftimage = new ImageIcon("resources\\image\\Graphics v3\\head_left.png");
                     leftimage.paintIcon(this, g, snakexlength[a], snakeylength[a]);
                 }
                 if (up) {
-                    upimage = new ImageIcon("head_up.png");
+                    upimage = new ImageIcon("resources\\image\\Graphics v3\\head_up.png");
                     upimage.paintIcon(this, g, snakexlength[a], snakeylength[a]);
                 }
                 if (down) {
-                    downimage = new ImageIcon("head_down.png");
+                    downimage = new ImageIcon("resources\\image\\Graphics v3\\head_down.png");
                     downimage.paintIcon(this, g, snakexlength[a], snakeylength[a]);
                 } 
             } else if (a == snakelength - 1) { // tail of the snake
                 if (right) {
-                    snakeimage = new ImageIcon("tail_left.png");
+                    snakeimage = new ImageIcon("resources\\image\\Graphics v3\\tail_left.png");
                     snakeimage.paintIcon(this, g, snakexlength[a], snakeylength[a]);
                 }
                 if (left) {
-                    snakeimage = new ImageIcon("tail_right.png");
+                    snakeimage = new ImageIcon("resources\\image\\Graphics v3\\tail_right.png");
                     snakeimage.paintIcon(this, g, snakexlength[a], snakeylength[a]);
                 }
                 if (up) {
-                    snakeimage = new ImageIcon("tail_down.png");
+                    snakeimage = new ImageIcon("resources\\image\\Graphics v3\\tail_down.png");
                     snakeimage.paintIcon(this, g, snakexlength[a], snakeylength[a]);
                 }
                 if (down) {
-                    snakeimage = new ImageIcon("tail_up.png");
+                    snakeimage = new ImageIcon("resources\\image\\Graphics v3\\tail_up.png");
                     snakeimage.paintIcon(this, g, snakexlength[a], snakeylength[a]);
                 }
             } else { // body of the snake
                 if (right || left) {
-                    snakeimage = new ImageIcon("body_horizontal.png");
+                    snakeimage = new ImageIcon("resources\\image\\Graphics v3\\body_horizontal.png");
                     snakeimage.paintIcon(this, g, snakexlength[a], snakeylength[a]);
                 }
                 if (up || down) {
-                    snakeimage = new ImageIcon("body_vertical.png");
+                    snakeimage = new ImageIcon("resources\\image\\Graphics v3\\body_vertical.png");
                     snakeimage.paintIcon(this, g, snakexlength[a], snakeylength[a]);
                 }
                 // Add conditions for bottomleft, bottomright, topleft, topright based on your game logic

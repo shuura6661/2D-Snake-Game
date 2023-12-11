@@ -5,7 +5,7 @@
 ### 🎉 New Features
 
 🕰️ 09/12/2023, 19:40
-- 📈 **Score History/Highest Score**: Keep track of your progress with our new score history and highest score feature..
+- 📈 **Score History/Highest Score**: Keep track of your progress with our new score history and highest score feature.
 
 🕰️ 09/12/2023, 20:07
 - 🚀 **Snake Speed Levels**: Test your reflexes with our new snake speed levels.
