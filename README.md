@@ -51,7 +51,7 @@
 ### 🐞 Bug Fixes
 🕰️ 10/12/2023, 20:32
 1. 🖼️ **Gameplay Border**: We've fixed the gameplay border for a smoother gaming experience.
-
+ 
 🕰️ 11/12/2023, 00:50
 2. 🐜 **Pixel Bug**: We've squashed the pesky 1 pixel bug.
 
