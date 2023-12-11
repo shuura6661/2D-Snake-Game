@@ -124,3 +124,5 @@ No   Player               Score    Level    Date       Time
 123  Brian M              11       1        2023-12-11 20:34:57
 124   Brian Marcellino    2        0        2023-12-11 20:53:47
 125  Brian Marcellino     12       1        2023-12-11 21:01:26
+126   Brian Marcellino    10       1        2023-12-11 21:20:25
+127  Brian Marcellino     12       1        2023-12-11 21:29:05

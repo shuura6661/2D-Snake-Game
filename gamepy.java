@@ -144,19 +144,19 @@ class gamepy extends JPanel implements KeyListener, ActionListener {
                 } 
             } else if (a == snakelength - 1) { // tail of the snake
                 if (right) {
-                    snakeimage = new ImageIcon("resource\\img\\graphics v4\\tail_left.png");
+                    snakeimage = new ImageIcon("resource\\img\\graphics v3\\tail_left.png");
                     snakeimage.paintIcon(this, g, snakexlength[a], snakeylength[a]);
                 }
                 if (left) {
-                    snakeimage = new ImageIcon("resource\\img\\graphics v4\\tail_right.png");
+                    snakeimage = new ImageIcon("resource\\img\\graphics v3\\tail_right.png");
                     snakeimage.paintIcon(this, g, snakexlength[a], snakeylength[a]);
                 }
                 if (up) {
-                    snakeimage = new ImageIcon("resource\\img\\graphics v4\\tail_down.png");
+                    snakeimage = new ImageIcon("resource\\img\\graphics v3\\tail_down.png");
                     snakeimage.paintIcon(this, g, snakexlength[a], snakeylength[a]);
                 }
                 if (down) {
-                    snakeimage = new ImageIcon("resource\\img\\graphics v4\\tail_up.png");
+                    snakeimage = new ImageIcon("resource\\img\\graphics v3\\tail_up.png");
                     snakeimage.paintIcon(this, g, snakexlength[a], snakeylength[a]);
                 }
             } else { // body of the snake
