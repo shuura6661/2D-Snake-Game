@@ -8,7 +8,7 @@
 - 📈 **Score History/Highest Score**: Keep track of your progress with our new score history and highest score feature.
 
 🕰️ 09/12/2023, 20:07
-- 🚀 **Snake Speed Levels**: Test your reflexes with our new snake speed levels.
+- 🚀 **Snake Speed Levels**: Test your reflexes with our new snake speed levels
 
 🕰️ 09/12/2023, 20:30
 - 🕹️ **Controller Functionality**: We've added controller support for a more immersive experience.
