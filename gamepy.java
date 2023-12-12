@@ -202,8 +202,8 @@ class gamepy extends JPanel implements KeyListener, ActionListener {
                     soundtrack.stop();
                 }
         
-                delay = 100;
-                timer.setDelay(delay);
+                // delay = 100;
+                // timer.setDelay(delay);
         
                 g.setColor(Color.white);
                 g.setFont(new Font("arial", Font.BOLD, 50));
@@ -249,7 +249,7 @@ class gamepy extends JPanel implements KeyListener, ActionListener {
                 delay *= 0.8; // Increase speed by 20%
                 break;
             case 2: // Hard Mode
-                delay *= 0.6; // Increase speed by 30%
+                delay *= 0.6; // Increase speed by 40%
                 break;
         }
         timer.setDelay(delay);
