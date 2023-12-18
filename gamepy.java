@@ -202,9 +202,6 @@ class gamepy extends JPanel implements KeyListener, ActionListener {
                     soundtrack.stop();
                 }
         
-                // delay = 100;
-                // timer.setDelay(delay);
-        
                 g.setColor(Color.white);
                 g.setFont(new Font("arial", Font.BOLD, 50));
                 g.drawString("Your Best Score is " + highestScore + "!", 225, 275);
