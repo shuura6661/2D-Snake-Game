@@ -207,10 +207,10 @@ class gamepy extends JPanel implements KeyListener, ActionListener {
         
                 g.setColor(Color.white);
                 g.setFont(new Font("arial", Font.BOLD, 50));
-                g.drawString("GAME OVER!", 300, 300);
+                g.drawString("Your Best Score is " + highestScore + "!", 225, 275);
                 g.setFont(new Font("arial", Font.BOLD, 20));
-                g.drawString("Press SPACE to Re-Play", 350, 340);
-                g.drawString("Press E to Exit", 350, 370);
+                g.drawString("Press SPACE to Re-Play", 325, 325);
+                g.drawString("Press E to Exit", 375, 355);
         
                 recordScore();
                 repaint();
